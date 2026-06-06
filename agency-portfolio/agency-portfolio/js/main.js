@@ -66,7 +66,7 @@
 
   /* ── WhatsApp number helper ────────────────────────────── */
   // Replace with real number in production
-  var WA_NUMBER = '2348000000000';
+  var WA_NUMBER = '2348061158652';
   document.querySelectorAll('[data-wa]').forEach(function(el){
     var msg = encodeURIComponent(el.getAttribute('data-wa') || 'Hello, I am interested in your web design services.');
     el.href = 'https://wa.me/' + WA_NUMBER + '?text=' + msg;

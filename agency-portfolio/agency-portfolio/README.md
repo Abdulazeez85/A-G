@@ -36,12 +36,12 @@ agency-portfolio/
 ## Quick Customization
 
 ### 1. Update your WhatsApp number
-Search for `2348000000000` across all files and replace with your real number.
+Search for `2348000000000` across all files and replace with `2348061158652`.
 
 ### 2. Update contact details
 In all HTML files, replace:
-- `hello@agwebsolutions.com.ng` → your email
-- `+234 800 000 0000` → your phone number
+- `hello@agwebsolutions.com.ng` → `thequantumdeveloper1@gmail.com`
+- `+234 800 000 0000` → `0806 115 8652`
 - `Ilorin, Kwara State, Nigeria` → your location
 
 ### 3. Update pricing (services.html)
