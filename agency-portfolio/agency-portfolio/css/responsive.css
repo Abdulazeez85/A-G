@@ -1,0 +1,74 @@
+/* ============================================================
+   A&G WEB SOLUTIONS — responsive.css
+   ============================================================ */
+
+/* ── Tablet (≤1024px) ───────────────────────────────────── */
+@media(max-width:1024px){
+  .hero-content{gap:40px}
+  .trust-grid{grid-template-columns:repeat(3,1fr)}
+  .services-grid{grid-template-columns:repeat(2,1fr)}
+  .industries-grid{grid-template-columns:repeat(2,1fr)}
+  .portfolio-grid{grid-template-columns:1fr}
+  .why-grid{gap:16px}
+  .testimonials-grid{grid-template-columns:repeat(2,1fr)}
+  .pricing-grid{grid-template-columns:1fr}
+  .footer-grid{grid-template-columns:1fr 1fr;gap:40px}
+  .about-story{gap:48px}
+  .values-grid{grid-template-columns:repeat(2,1fr)}
+  .team-grid{grid-template-columns:repeat(2,1fr)}
+  .services-full-grid{grid-template-columns:1fr}
+  .portfolio-full-grid{grid-template-columns:1fr}
+  .contact-grid{gap:40px}
+  .detail-grid{gap:40px}
+}
+
+/* ── Mobile (≤768px) ────────────────────────────────────── */
+@media(max-width:768px){
+  :root{--section-py:72px}
+  .nav-links,.nav-cta{display:none}
+  .hamburger{display:flex}
+  .hero-content{grid-template-columns:1fr;gap:48px;padding:40px 0}
+  .hero-visual{order:-1}
+  .mockup-mobile{display:none}
+  .floating-badge{display:none}
+  .hero-stats{gap:24px;flex-wrap:wrap}
+  .trust-grid{grid-template-columns:repeat(3,1fr);gap:16px}
+  .services-grid{grid-template-columns:1fr}
+  .industries-grid{grid-template-columns:1fr}
+  .portfolio-grid{grid-template-columns:1fr}
+  .why-grid{grid-template-columns:1fr}
+  .testimonials-grid{grid-template-columns:1fr}
+  .cta-btns{flex-direction:column;align-items:center}
+  .footer-grid{grid-template-columns:1fr;gap:32px}
+  .footer-bottom{flex-direction:column;gap:16px;text-align:center}
+  .about-story{grid-template-columns:1fr}
+  .story-visual{display:none}
+  .values-grid{grid-template-columns:1fr}
+  .team-grid{grid-template-columns:repeat(2,1fr)}
+  .services-full-grid{grid-template-columns:1fr}
+  .service-full-card{flex-direction:column}
+  .pricing-grid{grid-template-columns:1fr}
+  .portfolio-full-grid{grid-template-columns:1fr}
+  .contact-grid{grid-template-columns:1fr}
+  .contact-form-wrap{padding:28px}
+  .form-row{grid-template-columns:1fr}
+  .detail-grid{grid-template-columns:1fr}
+  .screen-showcase{grid-template-columns:1fr 1fr}
+  .hero-btns{flex-direction:column;align-items:flex-start}
+  .project-meta{flex-wrap:wrap}
+}
+
+/* ── Small mobile (≤480px) ──────────────────────────────── */
+@media(max-width:480px){
+  .container{padding:0 16px}
+  h1{font-size:2.2rem}
+  h2{font-size:1.8rem}
+  .trust-grid{grid-template-columns:repeat(2,1fr)}
+  .team-grid{grid-template-columns:1fr}
+  .pricing-card{padding:28px}
+  .contact-form-wrap{padding:20px}
+  .wa-float{bottom:20px;right:20px}
+  .screen-showcase{grid-template-columns:1fr}
+  .hero-btns{gap:10px}
+  .story-metrics{grid-template-columns:1fr}
+}

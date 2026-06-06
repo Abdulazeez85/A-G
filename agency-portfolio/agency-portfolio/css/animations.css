@@ -1,0 +1,44 @@
+/* ============================================================
+   A&G WEB SOLUTIONS — animations.css
+   ============================================================ */
+
+/* ── Scroll-reveal base states ──────────────────────────── */
+.reveal{opacity:0;transform:translateY(32px);transition:opacity .6s cubic-bezier(.23,1,.32,1),transform .6s cubic-bezier(.23,1,.32,1)}
+.reveal.revealed{opacity:1;transform:translateY(0)}
+.reveal-left{opacity:0;transform:translateX(-32px);transition:opacity .6s cubic-bezier(.23,1,.32,1),transform .6s cubic-bezier(.23,1,.32,1)}
+.reveal-left.revealed{opacity:1;transform:translateX(0)}
+.reveal-right{opacity:0;transform:translateX(32px);transition:opacity .6s cubic-bezier(.23,1,.32,1),transform .6s cubic-bezier(.23,1,.32,1)}
+.reveal-right.revealed{opacity:1;transform:translateX(0)}
+.reveal-scale{opacity:0;transform:scale(.92);transition:opacity .5s cubic-bezier(.23,1,.32,1),transform .5s cubic-bezier(.23,1,.32,1)}
+.reveal-scale.revealed{opacity:1;transform:scale(1)}
+
+/* ── Stagger delays ─────────────────────────────────────── */
+.delay-1{transition-delay:.1s}
+.delay-2{transition-delay:.2s}
+.delay-3{transition-delay:.3s}
+.delay-4{transition-delay:.4s}
+.delay-5{transition-delay:.5s}
+.delay-6{transition-delay:.6s}
+
+/* ── Hero entrance ──────────────────────────────────────── */
+.hero-anim{opacity:0;transform:translateY(24px);animation:heroIn .7s cubic-bezier(.23,1,.32,1) forwards}
+@keyframes heroIn{to{opacity:1;transform:translateY(0)}}
+.hero-anim-1{animation-delay:.1s}
+.hero-anim-2{animation-delay:.2s}
+.hero-anim-3{animation-delay:.35s}
+.hero-anim-4{animation-delay:.5s}
+.hero-anim-5{animation-delay:.65s}
+.hero-visual-anim{opacity:0;transform:translateX(40px);animation:heroVisual .8s cubic-bezier(.23,1,.32,1) .3s forwards}
+@keyframes heroVisual{to{opacity:1;transform:translateX(0)}}
+
+/* ── Page hero ──────────────────────────────────────────── */
+.page-hero-anim{opacity:0;transform:translateY(20px);animation:heroIn .6s cubic-bezier(.23,1,.32,1) .2s forwards}
+
+/* ── Pulse ring (for live dot) ──────────────────────────── */
+@keyframes pulseDot{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(.8)}}
+
+/* ── Float ──────────────────────────────────────────────── */
+@keyframes floatY{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+
+/* ── Shimmer ────────────────────────────────────────────── */
+@keyframes shimmer{from{background-position:-600px 0}to{background-position:600px 0}}
